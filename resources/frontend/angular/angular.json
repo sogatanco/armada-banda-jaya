@@ -82,7 +82,7 @@
               "browserTarget": "angular:build:dev"
             }
           }
-        },
+        }, 
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
