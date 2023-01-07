@@ -63,7 +63,7 @@
                 }
               ]
             },
-            "dev":{
+            "dev": {
               "outputPath": "dist/assets/angular",
               "baseHref": "/assets/angular/"
             }
@@ -78,11 +78,11 @@
             "production": {
               "browserTarget": "angular:build:production"
             },
-            "dev":{
+            "dev": {
               "browserTarget": "angular:build:dev"
             }
           }
-        }, 
+        },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
@@ -132,6 +132,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "angular"
+    }
+  },
+  "defaultProject": "angular",
+  "cli": {
+    "analytics": "ca556a31-07db-48ed-b5d9-dfa71cbe5199"
+  }
 }
